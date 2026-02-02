@@ -1,0 +1,11 @@
+cve_id,package_name,package_ecosystem,current_version,fixed_version,repository,manifest_path,severity,summary
+GHSA-w853-jp5j-5j7f,filelock,python,3.19.1,,vdr-python-test,requirements.txt,medium,A Time-of-Check-Time-of-Use (TOCTOU) race condition allows local attackers to corrupt or truncate arbitrary user files through symlink attacks.
+GHSA-5xp3-jfq3-5q8x,pip,python,20.3.4,,vdr-python-test,requirements.txt,medium,A flaw was found in python-pip in the way it handled Unicode separators in git references.
+GHSA-mq26-g339-26xf,pip,python,20.3.4,,vdr-python-test,requirements.txt,medium,When installing a package from a Mercurial VCS URL with pip prior to v23.3 the specified Mercurial revision could be used to inject arbitrary configuration options.
+GHSA-4xh5-x5gv-qwph,pip,python,20.3.4,,vdr-python-test,requirements.txt,medium,When extracting a tar archive pip may not check symbolic links point into the extraction directory.
+CVE-2022-40897,setuptools,python,44.1.1,,vdr-python-test,requirements.txt,medium,Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package.
+CVE-2025-47273,setuptools,python,44.1.1,,vdr-python-test,requirements.txt,high,A path traversal vulnerability in PackageIndex is present in setuptools prior to version 78.1.1.
+GHSA-r9hx-vwmv-q579,setuptools,python,44.1.1,,vdr-python-test,requirements.txt,high,Python Packaging Authority setuptools version 65.5.0 and earlier could allow remote attackers to cause a denial of service.
+GHSA-qwmp-2cf2-g9g6,wheel,python,0.34.2,,vdr-python-test,requirements.txt,high,Python Packaging Authority Wheel 0.37.1 and earlier are vulnerable to a Regular Expression denial of service.
+CVE-2023-32681,requests,python,2.25.0,,vdr-python-test,requirements.txt,medium,Requests library leaks Proxy-Authorization header to destination server during redirects.
+CVE-2021-33503,urllib3,python,1.26.5,,vdr-python-test,requirements.txt,high,urllib3 before 1.26.5 is vulnerable to ReDoS when the attacker controls the URL.

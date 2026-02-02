@@ -1,0 +1,19 @@
+mappings:
+  - field_name: cve_id
+    prop_name: FindingID
+  - field_name: package_name
+    prop_name: PackageName
+  - field_name: package_ecosystem
+    prop_name: Language
+  - field_name: current_version
+    prop_name: PackageVersion
+  - field_name: fixed_version
+    prop_name: PackageFixedVersions
+  - field_name: repository
+    prop_name: RepositoryName
+  - field_name: manifest_path
+    prop_name: ProjectFilePath
+  - field_name: severity
+    prop_name: Severity
+  - field_name: summary
+    prop_name: Title
