@@ -15,8 +15,11 @@ This project includes dependencies with known vulnerabilities from VDR reports:
 | requests | 2.25.0 | CVE-2023-32681 | Yes | N/A |
 | urllib3 | 1.26.5 | CVE-2021-33503 | Yes | N/A |
 | dspy | 2.5.0 | CVE-2025-12695 | No | No fix available |
+| **scrapy** | **2.11.0** | **GHSA-23j4-mw76-5v7h** | **No** | **Yes → 2.11.2** |
 
-**Note**: The `dspy` package triggers the OSV fallback (Trivy has no fix), but neither Trivy nor OSV currently have a fix version for this vulnerability.
+**OSV Fallback Test Cases**:
+- `scrapy@2.11.0` - **TRUE POSITIVE**: Trivy has no fix, OSV returns fix version `2.11.2`
+- `dspy@2.5.0` - Triggers OSV fallback but neither Trivy nor OSV have a fix available
 
 ## Usage
 

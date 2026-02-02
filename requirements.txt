@@ -20,3 +20,7 @@ urllib3==1.26.5
 # CVE-2025-12695 / GHSA-vvw2-h478-xwr3: DSPy sandbox escape
 # This package triggers OSV fallback - Trivy has no fix version
 dspy==2.5.0
+
+# GHSA-23j4-mw76-5v7h: Scrapy ReDoS vulnerability
+# TRUE OSV FALLBACK TEST CASE: Trivy has no fix, but OSV has fix 2.11.2
+scrapy==2.11.0

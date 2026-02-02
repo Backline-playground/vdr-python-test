@@ -10,3 +10,4 @@ GHSA-qwmp-2cf2-g9g6,wheel,python,0.34.2,,vdr-python-test,requirements.txt,high,P
 CVE-2023-32681,requests,python,2.25.0,,vdr-python-test,requirements.txt,medium,Requests library leaks Proxy-Authorization header to destination server during redirects.
 CVE-2021-33503,urllib3,python,1.26.5,,vdr-python-test,requirements.txt,high,urllib3 before 1.26.5 is vulnerable to ReDoS when the attacker controls the URL.
 CVE-2025-12695,dspy,python,2.5.0,,vdr-python-test,requirements.txt,medium,DSPy does not properly restrict file reads - sandbox escape allows stealing sensitive files.
+GHSA-23j4-mw76-5v7h,scrapy,python,2.11.0,,vdr-python-test,requirements.txt,medium,Scrapy ReDoS vulnerability - feed export filename can cause regex denial of service.
