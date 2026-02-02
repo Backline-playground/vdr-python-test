@@ -2,17 +2,17 @@
 # Used for testing OSV.dev fallback for fix version resolution
 
 # GHSA-w853-jp5j-5j7f: TOCTOU race condition
-filelock==3.19.1
+filelock==3.20.3
 
 # GHSA-5xp3-jfq3-5q8x, GHSA-mq26-g339-26xf, GHSA-4xh5-x5gv-qwph: pip vulnerabilities
-pip==20.3.4
+pip==25.3
 
 # CVE-2022-40897, CVE-2025-47273, GHSA-r9hx-vwmv-q579: setuptools vulnerabilities
-setuptools==44.1.1
+setuptools==78.1.1
 
 # GHSA-qwmp-2cf2-g9g6: wheel ReDoS vulnerability
-wheel==0.34.2
+wheel==0.38.1
 
 # Additional common packages
-requests==2.25.0
-urllib3==1.26.5
+requests==2.32.4
+urllib3==2.6.3
