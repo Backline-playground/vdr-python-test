@@ -16,3 +16,7 @@ wheel==0.34.2
 # Additional common packages
 requests==2.25.0
 urllib3==1.26.5
+
+# CVE-2025-12695 / GHSA-vvw2-h478-xwr3: DSPy sandbox escape
+# This package triggers OSV fallback - Trivy has no fix version
+dspy==2.5.0
